@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Justin Can have Ideas Too</title>
+  <meta name="description" content="Home page">
+  <meta name="Justin" content="SitePoint">
+
+  <!-- need text/css so server knows its a css file
+	href is based of stated static file folder public -->
+  <link type="text/css" rel="stylesheet" href="/css/main.css">
+  <!-- allows for each page to insert its own css file superseeding the main file -->
+  <link type="text/css" rel="stylesheet" href="/css/{{css}}">
+<p id="home"><a href="/">Go Home Here</a> </p>
+</head>
+<body>
+   {% block content %}
+
+   {% endblock %}
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+html{background-color: #f7af6a;}
+button{
+  height: 140px;
+  width: 340px;
+}
+#trainleft{
+  background-image: url(../src/trainleft.jpeg);
+
+}
+#trainright{
+  background-image: url(../src/trainright.jpeg);
+}
